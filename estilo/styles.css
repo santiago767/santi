@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+header{
+   background-color: blue; 
+}
+footer{
+   background-color: yellow
+}
+
+nav li{
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.carousel{
+   width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.card{
+   width: 200px;
+   height: 390px;
+   text-align: center;
+   border: 2px solid grey;
+   margin: 10px;
+   padding: 10px;
+   
+}
+
+.img{
+   object-fit: contain;
+   width: 160px;
+   margin: 0 auto;
+}
+
+
+h1{
+   color: white;
+   background-color: black;
+   text-align: center;
+   letter-spacing: 5px;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   
+}
+h3{
+   font-size: 18px;
+   text-align: left;
+   color: rgb(77, 119, 235);
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+h4{
+   color: blue;
+   text-transform: uppercase;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p{
+   padding: 0;
+   margin: 0;
+   color: green;
+   text-align: left;
+}
+.pdesc{
+   color: black;
+   text-decoration: line-through;
+   font-size: 10px;
+}
+.potro{
+   font-size: 10px;
+}
+.lorem{
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   color: rgb(68, 63, 63);
+}
+.contenedorlimite{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 10px;
+}
+.padre{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  
+   
+}
+
+nav li :hover{
+   color: white;
+   font-size: 20px;
+   text-decoration: underline;
+}
+a{
+   text-decoration: none;
+   color: black;
+   
+}
+main{
+   background-color: aqua;
+   background-image: url(../img/Estadio_Alberto_J._Armando_field_view.jpg);
+   background-repeat: repeat;
+}
+@media screen and (max-width:700px) {
+
+   h1{
+      text-align: left;
+      padding: 5px;
+      font-size: 30px;
+   }
+   body{
+      
+      background-image: url(../img/Estadio_Alberto_J._Armando_field_view.jpg);
+      
+   }
+   .carousel{
+      width: 300px;
+      
+   }
+
+
+}
